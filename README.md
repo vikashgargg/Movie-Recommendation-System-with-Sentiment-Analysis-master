@@ -1,4 +1,4 @@
-# Content-Based-Movie-Recommender-System-with-sentiment-analysis-using-AJAX
+Movie-Recommender-System-with-sentiment-analysis-using-AJAX
 
 ![Python](https://img.shields.io/badge/Python-3.8-blueviolet)
 ![Framework](https://img.shields.io/badge/Framework-Flask-red)
@@ -11,7 +11,7 @@ The details of the movies(title, genre, runtime, rating, poster, etc) are fetche
 
 Check out the live demo: https://mrswsa.herokuapp.com/
 
-Link to youtube demo: https://www.youtube.com/watch?v=dhVePtyECFw
+
 
 # Note
 
@@ -19,15 +19,8 @@ Link to youtube demo: https://www.youtube.com/watch?v=dhVePtyECFw
 
 I've developed a similar application called "The Movie Cinema" which supports all language movies. But the only thing that differs from this application is that I've used the TMDB's recommendation engine in "The Movie Cinema". The recommendation part developed by me in this application doesn't support for multi-language movies as it consumes 200% of RAM (even after deploying it to Heroku) for generating Count Vectorizer matrix for all the 700,000+ movies in the TMDB. 
 
-Link to "The Movie Cinema" application: https://the-movie-cinema.herokuapp.com/
 
 Don't worry if the movie that you are looking for is not auto-suggested. Just type the movie name and click on "enter". You will be good to go eventhough if you made some typo errors.
-
-Source Code: https://github.com/kishan0725/The-Movie-Cinema
-
-## Featured in Krish's Live Session on YouTube
-
-[![krish youtube](https://github.com/kishan0725/AJAX-Movie-Recommendation-System-with-Sentiment-Analysis/blob/master/static/krish-naik.PNG)](https://www.youtube.com/watch?v=A_78fGgQMjM)
 
 ## How to get the API key?
 
@@ -35,7 +28,7 @@ Create an account in https://www.themoviedb.org/, click on the `API` link from t
 
 ## How to run the project?
 
-1. Install all the libraries mentioned in the [requirements.txt](https://github.com/kishan0725/Movie-Recommendation-System-with-Sentiment-Analysis/blob/master/requirements.txt) file.
+1. Install all the libraries mentioned in the [requirements.txt](https://github.com/vikashgargg/Movie-Recommendation-System-with-Sentiment-Analysis/blob/master/requirements.txt) file.
 2. Clone this repository in your local system.
 3. Replace YOUR_API_KEY in the `static/recommend.js` file.
 4. Open the command prompt from your project directory and run the command `python main.py`.
